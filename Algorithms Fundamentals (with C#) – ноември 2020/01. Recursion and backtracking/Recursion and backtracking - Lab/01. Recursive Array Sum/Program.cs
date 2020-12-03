@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace _1_Recursive_Array_Sum
+namespace _01._Recursive_Array_Sum
 {
     class Program
     {
