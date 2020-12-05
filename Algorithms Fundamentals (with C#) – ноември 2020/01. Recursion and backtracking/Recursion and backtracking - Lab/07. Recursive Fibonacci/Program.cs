@@ -1,24 +1,23 @@
 ﻿using System;
 
-namespace Recursive_Factorial
+namespace _07._Recursive_Fibonacci
 {
     class Program
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
+            var n = int.Parse(Console.ReadLine());
             Console.WriteLine(Fib(n));
         }
 
-        public static long Fib(int number)
+        private static int Fib(int n)
         {
-            if(number <= 1)
+            if(n<=1)
             {
                 return 1;
             }
 
-            return number * Fib(number - 1);
+            return Fib(n - 1) + Fib(n - 2);
         }
-
     }
 }

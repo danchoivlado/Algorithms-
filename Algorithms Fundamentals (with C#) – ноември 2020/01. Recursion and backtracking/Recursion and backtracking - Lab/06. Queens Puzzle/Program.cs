@@ -55,11 +55,11 @@ namespace _06._Queens_Puzzle
                 {
                     if (board[row, col])
                     {
-                        Console.Write('*');
+                        Console.Write("* ");
                     }
                     else
                     {
-                        Console.Write('-');
+                        Console.Write("- ");
                     }
                 }
                 Console.Write('\n');
