@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Generating Vectors", "0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Recursive Factorial", "Recursive Factorial\Recursive Factorial.csproj", "{95FEAF04-8AB1-424E-ADD7-E501DF61513A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Find All Paths", "05. Find All Paths\05. Find All Paths.csproj", "{7BE5DC84-6C0C-42F2-ADB3-F3382DC2C50D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Find All Paths", "05. Find All Paths\05. Find All Paths.csproj", "{7BE5DC84-6C0C-42F2-ADB3-F3382DC2C50D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Queens Puzzle", "06. Queens Puzzle\06. Queens Puzzle.csproj", "{98A33282-6BED-4674-9303-80CF08573992}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7BE5DC84-6C0C-42F2-ADB3-F3382DC2C50D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7BE5DC84-6C0C-42F2-ADB3-F3382DC2C50D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7BE5DC84-6C0C-42F2-ADB3-F3382DC2C50D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98A33282-6BED-4674-9303-80CF08573992}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98A33282-6BED-4674-9303-80CF08573992}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98A33282-6BED-4674-9303-80CF08573992}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98A33282-6BED-4674-9303-80CF08573992}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
