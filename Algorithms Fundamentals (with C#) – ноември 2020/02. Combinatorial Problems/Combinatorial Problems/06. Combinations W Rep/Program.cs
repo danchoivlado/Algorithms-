@@ -25,7 +25,7 @@ namespace _06._Combinations_W_Rep
                 return;
             }
 
-            for (int i = start; i <= combinations.Length; i++)
+            for (int i = start; i < elements.Length; i++)
             {
                 combinations[index] = elements[i];
                 Generate(index + 1, i);
