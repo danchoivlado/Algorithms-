@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Permutations W Rep", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Variations WO Rep", "03. Variations WO Rep\03. Variations WO Rep.csproj", "{8CA385AE-6907-42DE-8B2B-01F37A600E71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Variations W Rep", "04. Variations W Rep\04. Variations W Rep.csproj", "{2BF9AFFF-5810-4490-832E-A40AA5D5DE7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{8CA385AE-6907-42DE-8B2B-01F37A600E71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CA385AE-6907-42DE-8B2B-01F37A600E71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CA385AE-6907-42DE-8B2B-01F37A600E71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BF9AFFF-5810-4490-832E-A40AA5D5DE7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BF9AFFF-5810-4490-832E-A40AA5D5DE7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BF9AFFF-5810-4490-832E-A40AA5D5DE7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BF9AFFF-5810-4490-832E-A40AA5D5DE7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
