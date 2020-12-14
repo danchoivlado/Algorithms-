@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Reverse Array", "01. Reverse Array\01. Reverse Array.csproj", "{FF9DDBD0-E85D-4876-B670-C64EBC0E969C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Nested Loops", "02. Nested Loops\02. Nested Loops.csproj", "{829E26EF-08EC-4824-965F-87C87CF1F892}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Nested Loops", "02. Nested Loops\02. Nested Loops.csproj", "{829E26EF-08EC-4824-965F-87C87CF1F892}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Comb. with Rep", "03. Comb. with Rep\03. Comb. with Rep.csproj", "{D8FE382C-8E88-42DC-8EC1-790B13C9D467}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{829E26EF-08EC-4824-965F-87C87CF1F892}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{829E26EF-08EC-4824-965F-87C87CF1F892}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{829E26EF-08EC-4824-965F-87C87CF1F892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8FE382C-8E88-42DC-8EC1-790B13C9D467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FE382C-8E88-42DC-8EC1-790B13C9D467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FE382C-8E88-42DC-8EC1-790B13C9D467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FE382C-8E88-42DC-8EC1-790B13C9D467}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
