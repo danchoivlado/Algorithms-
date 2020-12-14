@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Comb. with Rep", "03. C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Comb WO Rep", "04. Comb WO Rep\04. Comb WO Rep.csproj", "{D53821E4-246E-480D-BDD7-E4F8E3EF3008}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Connected Areas", "05. Connected Areas\05. Connected Areas.csproj", "{AE7D9610-B156-4AC4-8D74-70F48D19CE39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D53821E4-246E-480D-BDD7-E4F8E3EF3008}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D53821E4-246E-480D-BDD7-E4F8E3EF3008}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D53821E4-246E-480D-BDD7-E4F8E3EF3008}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7D9610-B156-4AC4-8D74-70F48D19CE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7D9610-B156-4AC4-8D74-70F48D19CE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7D9610-B156-4AC4-8D74-70F48D19CE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7D9610-B156-4AC4-8D74-70F48D19CE39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
