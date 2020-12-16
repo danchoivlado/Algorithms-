@@ -11,26 +11,15 @@ namespace Tests
 
         static void Main(string[] args)
         {
-            elements = Console.ReadLine().Split().Select(char.Parse).ToArray();
-            var numSlots = int.Parse(Console.ReadLine());
-            slots = new char[numSlots];
+            var hehs = new HashSet<int>();
 
-            Generate(0, 0);
-        }
+            hehs.Add(1);
+            hehs.Add(1);
+            hehs.Add(1);
 
-        private static void Generate(int index, int start)
-        {
-            if(index >= slots.Length)
+            foreach (var item in hehs)
             {
-                Console.WriteLine(string.Join(" ", slots));
-                return;
-            }
-
-
-            for (int i = start; i < elements.Length; i++)
-            {
-                slots[index] = elements[i];
-                Generate(index + 1, i);
+                Console.WriteLine(item);
             }
         }
     }
