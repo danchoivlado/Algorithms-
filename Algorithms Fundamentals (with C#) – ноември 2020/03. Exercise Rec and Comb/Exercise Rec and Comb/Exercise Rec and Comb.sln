@@ -7,11 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Reverse Array", "01. Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Nested Loops", "02. Nested Loops\02. Nested Loops.csproj", "{829E26EF-08EC-4824-965F-87C87CF1F892}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Comb. with Rep", "03. Comb. with Rep\03. Comb. with Rep.csproj", "{D8FE382C-8E88-42DC-8EC1-790B13C9D467}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Comb. with Rep", "03. Comb. with Rep\03. Comb. with Rep.csproj", "{D8FE382C-8E88-42DC-8EC1-790B13C9D467}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Comb WO Rep", "04. Comb WO Rep\04. Comb WO Rep.csproj", "{D53821E4-246E-480D-BDD7-E4F8E3EF3008}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Comb WO Rep", "04. Comb WO Rep\04. Comb WO Rep.csproj", "{D53821E4-246E-480D-BDD7-E4F8E3EF3008}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Connected Areas", "05. Connected Areas\05. Connected Areas.csproj", "{AE7D9610-B156-4AC4-8D74-70F48D19CE39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Connected Areas", "05. Connected Areas\05. Connected Areas.csproj", "{AE7D9610-B156-4AC4-8D74-70F48D19CE39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{46F85393-CC09-42BB-93D6-3275DFFCEFEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{AE7D9610-B156-4AC4-8D74-70F48D19CE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AE7D9610-B156-4AC4-8D74-70F48D19CE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AE7D9610-B156-4AC4-8D74-70F48D19CE39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F85393-CC09-42BB-93D6-3275DFFCEFEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F85393-CC09-42BB-93D6-3275DFFCEFEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F85393-CC09-42BB-93D6-3275DFFCEFEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F85393-CC09-42BB-93D6-3275DFFCEFEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
