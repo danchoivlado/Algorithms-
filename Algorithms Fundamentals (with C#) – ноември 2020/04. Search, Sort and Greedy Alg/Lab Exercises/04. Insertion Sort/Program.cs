@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace _03._Bubble_Sort
+namespace _04._Insertion_Sort
 {
     class Program
     {
@@ -9,22 +9,19 @@ namespace _03._Bubble_Sort
         {
             var elements = Console.ReadLine().Split().Select(int.Parse).ToArray();
 
-            BubbleSort(elements);
+            InsertionSort(elements);
             Console.WriteLine(string.Join(" ", elements));
         }
 
-        private static void BubbleSort(int[] elements)
+        private static void InsertionSort(int[] elements)
         {
-            var sorted = false;
-            while (!sorted)
+            for (int i = 1; i < elements.Length; i++)
             {
-                sorted = true;
-                for (int i = 0; i < elements.Length-1; i++)
+                for (int j = i; j >= 1; j--)
                 {
-                    if(elements[i] > elements[i + 1])
+                    if (elements[j] < elements[j - 1])
                     {
-                        Swap(elements, i, i + 1);
-                        sorted = false;
+                        Swap(elements, j, j - 1);
                     }
                 }
             }
