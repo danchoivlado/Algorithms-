@@ -26,9 +26,10 @@ namespace _00._DFS
 
             foreach (var node in graph.Keys)
             {
-              
+                if (!visitedNodes.Contains(node))
+                {
                     DFS(node);
-                
+                }
             }
         }
 
