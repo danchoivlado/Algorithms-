@@ -9,17 +9,16 @@ namespace _02._Source_Removal_Topological_Sorting
     {
         public static Dictionary<string, List<string>> graph;
         public static Dictionary<string, int> dependancies;
-
+        public static bool Is = false;
 
         static void Main(string[] args)
         {
             var n = int.Parse(Console.ReadLine());
             graph = ReadGraph(n);
             dependancies = SortGraph();
-            var IsInvalid = false;
-            var res = GenRes(ref IsInvalid);
+            var res = GenRes();
 
-            if (IsInvalid)
+            if (Is)
             {
                 Console.WriteLine("Invalid topological sorting");
                 return;
@@ -29,7 +28,7 @@ namespace _02._Source_Removal_Topological_Sorting
 
         }
 
-        private static List<string> GenRes(ref bool isInvalid)
+        private static List<string> GenRes()
         {
             var lis = new List<string>();
 
@@ -40,7 +39,7 @@ namespace _02._Source_Removal_Topological_Sorting
 
                 if (string.IsNullOrEmpty(nodeDelete.Key))
                 {
-                    isInvalid = true;
+                    Is = true;
                     break;
                 }
 
