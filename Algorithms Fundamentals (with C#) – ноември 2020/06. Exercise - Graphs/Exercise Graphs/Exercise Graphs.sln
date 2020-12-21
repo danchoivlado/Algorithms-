@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Areas in Matrix", "02. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Cycles in a Graph", "03. Cycles in a Graph\03. Cycles in a Graph.csproj", "{EF8A172D-AE21-4DAD-A245-7510A49604B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Salaries", "04. Salaries\04. Salaries.csproj", "{28D2EDA2-D9FC-4E71-9711-2FFB793D450E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EF8A172D-AE21-4DAD-A245-7510A49604B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF8A172D-AE21-4DAD-A245-7510A49604B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF8A172D-AE21-4DAD-A245-7510A49604B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28D2EDA2-D9FC-4E71-9711-2FFB793D450E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28D2EDA2-D9FC-4E71-9711-2FFB793D450E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28D2EDA2-D9FC-4E71-9711-2FFB793D450E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28D2EDA2-D9FC-4E71-9711-2FFB793D450E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
