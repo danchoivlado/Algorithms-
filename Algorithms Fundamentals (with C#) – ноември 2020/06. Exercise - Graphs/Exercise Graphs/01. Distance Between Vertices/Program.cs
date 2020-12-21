@@ -12,14 +12,15 @@ namespace _01._Distance_Between_Vertices
             public int destNode;
         }
 
-        public static List<int>[] graph;
-        public static bool[] visited;
+        public static Dictionary<int, List<int>> graph;
+        public static Dictionary<int, bool> visited;
         public static List<Pair> pairs;
-        public static int[] parents;
+        public static Dictionary<int, int> parents;
+        public static int n;
 
         static void Main(string[] args)
         {
-            var n = int.Parse(Console.ReadLine());
+            n = int.Parse(Console.ReadLine());
             var numberOfPairs = int.Parse(Console.ReadLine());
 
             ReadGraph(n);
@@ -34,10 +35,11 @@ namespace _01._Distance_Between_Vertices
 
         private static int FindDistannce(int startNode, int destNode)
         {
-            visited = new bool[graph.Length];
-            parents = new int[graph.Length + 1];
+            visited = new Dictionary<int, bool>();
+            parents = new Dictionary<int, int>();
             var queue = new Queue<int>();
             queue.Enqueue(startNode);
+            visited = FillDic();
 
             visited[startNode] = true;
             while (queue.Count > 0)
@@ -53,11 +55,8 @@ namespace _01._Distance_Between_Vertices
                     if (!visited[child])
                     {
                         queue.Enqueue(child);
-                        if(child == destNode && parents[child]!= 0)
-                        {
-                            continue;
-                        }
-                        parents[child] = deleteNode;
+                        visited[child] = true;
+                        parents.Add(child, deleteNode);
                     }
                 }
             }
@@ -65,12 +64,24 @@ namespace _01._Distance_Between_Vertices
             return -1;
         }
 
+        private static Dictionary<int, bool> FillDic()
+        {
+            var res = new Dictionary<int, bool>();
+
+            foreach (var node in graph.Keys)
+            {
+                res.Add(node, false);
+            }
+
+            return res;
+        }
+
         private static int ReconstructArr(int deleteNode)
         {
             var curNode = deleteNode;
             var counter = 0;
 
-            while (parents[curNode] != 0)
+            while (parents.ContainsKey(curNode))
             {
                 counter++;
                 curNode = parents[curNode];
@@ -99,7 +110,7 @@ namespace _01._Distance_Between_Vertices
 
         private static void ReadGraph(int n)
         {
-            graph = new List<int>[n + 1];
+            graph = new Dictionary<int, List<int>>();
 
             for (int i = 0; i < n; i++)
             {
@@ -111,7 +122,7 @@ namespace _01._Distance_Between_Vertices
 
                 if (line.Count <= 1)
                 {
-                    graph[node] = new List<int>();
+                    graph.Add(node, new List<int>());
                 }
                 else
                 {
