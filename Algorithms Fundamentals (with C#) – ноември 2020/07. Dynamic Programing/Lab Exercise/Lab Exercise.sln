@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Fib Sequence", "01. Fib
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00. Subset Sum", "00. Subset Sum\00. Subset Sum.csproj", "{56CB9FCA-B366-4A18-922F-101906E9A40D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00. Subset Sum w Rep", "00. Subset Sum w Rep\00. Subset Sum w Rep.csproj", "{0573DE16-6646-42F3-9A3D-E7E159B9D003}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{56CB9FCA-B366-4A18-922F-101906E9A40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56CB9FCA-B366-4A18-922F-101906E9A40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56CB9FCA-B366-4A18-922F-101906E9A40D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0573DE16-6646-42F3-9A3D-E7E159B9D003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0573DE16-6646-42F3-9A3D-E7E159B9D003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0573DE16-6646-42F3-9A3D-E7E159B9D003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0573DE16-6646-42F3-9A3D-E7E159B9D003}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
