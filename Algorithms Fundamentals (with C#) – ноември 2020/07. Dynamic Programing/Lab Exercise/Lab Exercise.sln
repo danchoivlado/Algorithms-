@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Fib Sequence", "01. Fib Sequence\01. Fib Sequence.csproj", "{6BCD6F0A-0652-4125-945C-DB58B39D03F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00. Subset Sum", "00. Subset Sum\00. Subset Sum.csproj", "{56CB9FCA-B366-4A18-922F-101906E9A40D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6BCD6F0A-0652-4125-945C-DB58B39D03F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6BCD6F0A-0652-4125-945C-DB58B39D03F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6BCD6F0A-0652-4125-945C-DB58B39D03F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56CB9FCA-B366-4A18-922F-101906E9A40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56CB9FCA-B366-4A18-922F-101906E9A40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56CB9FCA-B366-4A18-922F-101906E9A40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56CB9FCA-B366-4A18-922F-101906E9A40D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
