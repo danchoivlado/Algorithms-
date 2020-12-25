@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Binomial Coefficients",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Dividing Presents", "02. Dividing Presents\02. Dividing Presents.csproj", "{C9F26C58-A140-4BBE-B008-778FB62AFBB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Sum with Limited", "04. Sum with Limited\04. Sum with Limited.csproj", "{543EB40F-AA4B-4DAA-8AFD-93FAB5B9B59C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C9F26C58-A140-4BBE-B008-778FB62AFBB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9F26C58-A140-4BBE-B008-778FB62AFBB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9F26C58-A140-4BBE-B008-778FB62AFBB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{543EB40F-AA4B-4DAA-8AFD-93FAB5B9B59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543EB40F-AA4B-4DAA-8AFD-93FAB5B9B59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543EB40F-AA4B-4DAA-8AFD-93FAB5B9B59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543EB40F-AA4B-4DAA-8AFD-93FAB5B9B59C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

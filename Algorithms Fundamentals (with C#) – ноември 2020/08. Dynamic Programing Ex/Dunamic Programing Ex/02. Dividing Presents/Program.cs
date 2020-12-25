@@ -14,7 +14,7 @@ namespace _02._Dividing_Presents
             var allSums = CalcSums(nums);
 
             var sum = nums.Sum();
-            var bobScope = BobScope(allSums, sum / 2);
+            var bobScope = BobScope(allSums,(int) Math.Ceiling(sum / 2.0));
             var alanSope = sum - bobScope;
 
             var alanPresents = new List<int>();
