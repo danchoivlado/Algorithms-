@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Dividing Presents", "02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Sum with Limited", "04. Sum with Limited\04. Sum with Limited.csproj", "{543EB40F-AA4B-4DAA-8AFD-93FAB5B9B59C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Sum with Unlimited", "03. Sum with Unlimited\03. Sum with Unlimited.csproj", "{76417E94-4363-4FF4-9F59-F329CCC74F11}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{543EB40F-AA4B-4DAA-8AFD-93FAB5B9B59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{543EB40F-AA4B-4DAA-8AFD-93FAB5B9B59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{543EB40F-AA4B-4DAA-8AFD-93FAB5B9B59C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76417E94-4363-4FF4-9F59-F329CCC74F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76417E94-4363-4FF4-9F59-F329CCC74F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76417E94-4363-4FF4-9F59-F329CCC74F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76417E94-4363-4FF4-9F59-F329CCC74F11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
