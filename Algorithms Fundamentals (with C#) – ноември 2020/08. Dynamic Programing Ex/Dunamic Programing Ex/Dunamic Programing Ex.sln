@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Binomial Coefficients", "01. Binomial Coefficients\01. Binomial Coefficients.csproj", "{6D6CBAE7-174D-4358-9705-ACEBDB29BA45}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Dividing Presents", "02. Dividing Presents\02. Dividing Presents.csproj", "{C9F26C58-A140-4BBE-B008-778FB62AFBB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Dividing Presents", "02. Dividing Presents\02. Dividing Presents.csproj", "{C9F26C58-A140-4BBE-B008-778FB62AFBB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Sum with Limited", "04. Sum with Limited\04. Sum with Limited.csproj", "{543EB40F-AA4B-4DAA-8AFD-93FAB5B9B59C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Sum with Limited", "04. Sum with Limited\04. Sum with Limited.csproj", "{543EB40F-AA4B-4DAA-8AFD-93FAB5B9B59C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Sum with Unlimited", "03. Sum with Unlimited\03. Sum with Unlimited.csproj", "{76417E94-4363-4FF4-9F59-F329CCC74F11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Sum with Unlimited", "03. Sum with Unlimited\03. Sum with Unlimited.csproj", "{76417E94-4363-4FF4-9F59-F329CCC74F11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Word Differences", "05. Word Differences\05. Word Differences.csproj", "{3E465807-FA49-4E22-A882-C9804FE06E75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{76417E94-4363-4FF4-9F59-F329CCC74F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76417E94-4363-4FF4-9F59-F329CCC74F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76417E94-4363-4FF4-9F59-F329CCC74F11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E465807-FA49-4E22-A882-C9804FE06E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E465807-FA49-4E22-A882-C9804FE06E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E465807-FA49-4E22-A882-C9804FE06E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E465807-FA49-4E22-A882-C9804FE06E75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
