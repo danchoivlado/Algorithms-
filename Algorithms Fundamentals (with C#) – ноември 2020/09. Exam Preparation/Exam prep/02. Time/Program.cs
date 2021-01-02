@@ -17,7 +17,6 @@ namespace _02._Time
             FillMatrix(firstLine, secondLine);
 
 
-            PrintMatrix();
             DecodeMatrix(firstLine, secondLine);
         }
 
