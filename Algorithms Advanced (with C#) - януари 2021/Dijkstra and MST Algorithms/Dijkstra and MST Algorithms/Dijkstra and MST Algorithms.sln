@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tets", "Tets\Tets.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Kruskal’s Algorithm", "02. Kruskal’s Algorithm\02. Kruskal’s Algorithm.csproj", "{1C6AC93A-B8D8-40CF-BD29-118111C97F7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Prim's Algorithm", "03. Prim's Algorithm\03. Prim's Algorithm.csproj", "{D1D05AE5-3822-42C7-94F7-D9CA29CFD660}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1C6AC93A-B8D8-40CF-BD29-118111C97F7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C6AC93A-B8D8-40CF-BD29-118111C97F7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C6AC93A-B8D8-40CF-BD29-118111C97F7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D05AE5-3822-42C7-94F7-D9CA29CFD660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D05AE5-3822-42C7-94F7-D9CA29CFD660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D05AE5-3822-42C7-94F7-D9CA29CFD660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D05AE5-3822-42C7-94F7-D9CA29CFD660}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
