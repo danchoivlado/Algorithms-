@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Bellman_Ford
+namespace _01._Bellman_Ford
 {
+
     class Program
     {
         internal class Edge
