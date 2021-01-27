@@ -82,7 +82,7 @@ namespace Bellman_Ford
 
             Console.WriteLine(string.Join(" ", stack));
             Console.WriteLine(distances[end]);
-            }
+        }
 
         private static Stack<int> ReconstructGraph(int[] prev, int node)
         {
@@ -101,8 +101,6 @@ namespace Bellman_Ford
         {
             var res = new List<Edge>();
 
-
-
             for (int i = 0; i < edges; i++)
             {
                 var line = Console.ReadLine().Split().Select(int.Parse).ToArray();
@@ -111,8 +109,7 @@ namespace Bellman_Ford
                 var to = line[1];
                 var weight = line[2];
 
-                var edge = new Edge(from, to, weight);
-                res.Add(edge);
+                res.Add(new Edge(from, to, weight));
             }
 
             return res;
