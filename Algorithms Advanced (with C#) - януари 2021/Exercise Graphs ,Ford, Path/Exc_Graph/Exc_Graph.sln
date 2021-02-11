@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Most Reliable Path", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{4A436762-B40C-4718-A7D2-91123D0A6610}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Cheap Town Tour", "02. Cheap Town Tour\02. Cheap Town Tour.csproj", "{BD6EC5AA-FBC4-4DE0-9ADF-7F706B9E7237}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4A436762-B40C-4718-A7D2-91123D0A6610}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A436762-B40C-4718-A7D2-91123D0A6610}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A436762-B40C-4718-A7D2-91123D0A6610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD6EC5AA-FBC4-4DE0-9ADF-7F706B9E7237}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6EC5AA-FBC4-4DE0-9ADF-7F706B9E7237}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6EC5AA-FBC4-4DE0-9ADF-7F706B9E7237}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6EC5AA-FBC4-4DE0-9ADF-7F706B9E7237}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
