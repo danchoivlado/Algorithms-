@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Most Reliable Path", "01. Most Reliable Path\01. Most Reliable Path.csproj", "{3BD612E4-3941-4D6A-BBDC-2D5E10674E02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Most Reliable Path", "01. Most Reliable Path\01. Most Reliable Path.csproj", "{3BD612E4-3941-4D6A-BBDC-2D5E10674E02}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{4A436762-B40C-4718-A7D2-91123D0A6610}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Cheap Town Tour", "02. Cheap Town Tour\02. Cheap Town Tour.csproj", "{BD6EC5AA-FBC4-4DE0-9ADF-7F706B9E7237}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Cheap Town Tour", "02. Cheap Town Tour\02. Cheap Town Tour.csproj", "{BD6EC5AA-FBC4-4DE0-9ADF-7F706B9E7237}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Undefined", "03. Undefined\03. Undefined.csproj", "{52A6BED5-A904-4553-AED9-BC89B922732D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Undefined", "03. Undefined\03. Undefined.csproj", "{52A6BED5-A904-4553-AED9-BC89B922732D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Big Trip", "04. Big Trip\04. Big Trip.csproj", "{2C3B7BE5-F431-48E7-94C2-B0BF987F1CA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Cable Network", "05. Cable Network\05. Cable Network.csproj", "{40749A64-77CA-4BD9-9734-E38A47490758}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{52A6BED5-A904-4553-AED9-BC89B922732D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52A6BED5-A904-4553-AED9-BC89B922732D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52A6BED5-A904-4553-AED9-BC89B922732D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C3B7BE5-F431-48E7-94C2-B0BF987F1CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C3B7BE5-F431-48E7-94C2-B0BF987F1CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C3B7BE5-F431-48E7-94C2-B0BF987F1CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C3B7BE5-F431-48E7-94C2-B0BF987F1CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40749A64-77CA-4BD9-9734-E38A47490758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40749A64-77CA-4BD9-9734-E38A47490758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40749A64-77CA-4BD9-9734-E38A47490758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40749A64-77CA-4BD9-9734-E38A47490758}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
