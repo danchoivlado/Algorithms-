@@ -54,7 +54,7 @@ namespace _02._Cheap_Town_Tour
                 }
             }
 
-            Console.WriteLine(total);
+            Console.WriteLine($"Total cost: {total}");
         }
 
         private static int FindRoot(int node, int[] root)

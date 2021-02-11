@@ -51,7 +51,7 @@ namespace Tests
                 distances[i] = double.NegativeInfinity;
                 prev[i] = -1;
             }
-            distances[0] = 1;
+            distances[start] = 1;
 
             var queue = new OrderedBag<int>(Comparer<int>
                 .Create((f, s) => distances[s].CompareTo(distances[f])));
