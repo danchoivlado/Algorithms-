@@ -36,7 +36,7 @@ namespace _01._Strongly_Connected_Components
                 
                 var component = new Stack<int>();
                 RevDFS(curNode, visited, component);
-                Console.WriteLine($"{{{string.Join(" ", component)}}}");
+                Console.WriteLine($"{{{string.Join(", ", component)}}}");
             }
         }
 
