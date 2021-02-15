@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Strongly Connected Components", "01. Strongly Connected Components\01. Strongly Connected Components.csproj", "{0C19CF99-980A-4275-BA20-CD658E3F3E3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Strongly Connected Components", "01. Strongly Connected Components\01. Strongly Connected Components.csproj", "{0C19CF99-980A-4275-BA20-CD658E3F3E3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Max Flow", "02. Max Flow\02. Max Flow.csproj", "{0CD5AE09-840B-4390-A987-1B7021C0DA65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Max Flow", "02. Max Flow\02. Max Flow.csproj", "{0CD5AE09-840B-4390-A987-1B7021C0DA65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Articulation Points", "03. Articulation Points\03. Articulation Points.csproj", "{623A5DE0-D405-42C5-B588-67E300AB8C50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{0CD5AE09-840B-4390-A987-1B7021C0DA65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0CD5AE09-840B-4390-A987-1B7021C0DA65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0CD5AE09-840B-4390-A987-1B7021C0DA65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{623A5DE0-D405-42C5-B588-67E300AB8C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623A5DE0-D405-42C5-B588-67E300AB8C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623A5DE0-D405-42C5-B588-67E300AB8C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{623A5DE0-D405-42C5-B588-67E300AB8C50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
