@@ -36,7 +36,7 @@ namespace _03._Articulation_Points
                 }
             }
 
-            Console.WriteLine($"Articulation points: {string.Join(" ", articulationPoints)}");
+            Console.WriteLine($"Articulation points: {string.Join(", ", articulationPoints)}");
         }
 
         private static void FindArticulationPoints(int node, int depth)
