@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Electrical Substation Network", "01. Electrical Substation Network\01. Electrical Substation Network.csproj", "{B075ACAD-0896-4BCF-BE8E-337D2CAD82BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Electrical Substation Network", "01. Electrical Substation Network\01. Electrical Substation Network.csproj", "{B075ACAD-0896-4BCF-BE8E-337D2CAD82BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Maximum Tasks Assignment", "02. Maximum Tasks Assignment\02. Maximum Tasks Assignment.csproj", "{2267D4DE-FFCF-4F27-A2E0-19F83D1D0D5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Maximum Tasks Assignment", "02. Maximum Tasks Assignment\02. Maximum Tasks Assignment.csproj", "{2267D4DE-FFCF-4F27-A2E0-19F83D1D0D5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Find Bi-Connected", "03. Find Bi-Connected\03. Find Bi-Connected.csproj", "{292188B0-FB3C-4665-BB5A-448021FDC81C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2267D4DE-FFCF-4F27-A2E0-19F83D1D0D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2267D4DE-FFCF-4F27-A2E0-19F83D1D0D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2267D4DE-FFCF-4F27-A2E0-19F83D1D0D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{292188B0-FB3C-4665-BB5A-448021FDC81C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292188B0-FB3C-4665-BB5A-448021FDC81C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292188B0-FB3C-4665-BB5A-448021FDC81C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{292188B0-FB3C-4665-BB5A-448021FDC81C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
