@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Rod Cutting", "01. Rod Cutting\01. Rod Cutting.csproj", "{19C61539-E83B-450F-B9CC-A37BDFF1B620}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19C61539-E83B-450F-B9CC-A37BDFF1B620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19C61539-E83B-450F-B9CC-A37BDFF1B620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19C61539-E83B-450F-B9CC-A37BDFF1B620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19C61539-E83B-450F-B9CC-A37BDFF1B620}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {503326C1-08D9-4022-81F1-BBDE29EC02A8}
+	EndGlobalSection
+EndGlobal
