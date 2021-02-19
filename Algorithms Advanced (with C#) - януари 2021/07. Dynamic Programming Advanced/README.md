@@ -1,4 +1,4 @@
-# 07. Dynamic Programming Advanced
+# 07. Dynamic Programmingg Advanced
 - [Video](https://www.youtube.com/watch?v=VPbm66YP6wg "Video")
 - [Presentation](https://drive.google.com/file/d/1j4L0uTYYUzeg9tkRJblYzRfcRfVUB84E/view?usp=sharing "Presentation")
 - [Exercises](https://drive.google.com/file/d/11CVWyxhMoALagJjyqcg6LqxOu6KtT-AG/view?usp=sharing "Exercises")
