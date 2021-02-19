@@ -71,9 +71,8 @@ namespace _02._Chain_Lightning
                         bestDemage = damageByNode[kvp.Key];
                     }
                 }
-
-                Console.WriteLine(bestDemage);
             }
+            Console.WriteLine(bestDemage);
         }
 
         private static int CalcDamage(int damage, int depth)
